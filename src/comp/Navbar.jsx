@@ -1,3 +1,4 @@
+// navbar.jsx
 import { useState } from "react";
 import {
   PaperAirplaneIcon,
@@ -5,7 +6,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 export const Navbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <div className="app">
@@ -67,5 +68,5 @@ export const Navbar = () => {
         </div>
       </nav>
     </div>
-  )
-}
+  );
+};
